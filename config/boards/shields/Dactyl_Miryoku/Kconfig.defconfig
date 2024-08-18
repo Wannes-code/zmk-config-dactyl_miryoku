@@ -1,0 +1,16 @@
+if SHIELD_DACTYL_MIRYOKU_L
+
+config ZMK_KEYBOARD_NAME
+    default "Dactyl_Miryoku"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_DACTYL_MIRYOKU_L || SHIELD_DACTYL_MIRYOKU_R
+
+config ZMK_SPLIT
+    default y
+
+endif
