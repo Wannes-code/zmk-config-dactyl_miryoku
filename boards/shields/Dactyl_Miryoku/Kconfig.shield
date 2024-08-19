@@ -1,5 +1,5 @@
 config SHIELD_DACTYL_MIRYOKU_L
-    def_bool $(shields_list_contains, Dactyl_Miryoku_L)
+    def_bool $(shields_list_contains,Dactyl_Miryoku_L)
 
 config SHIELD_DACTYL_MIRYOKU_R
-    def_bool $(shields_list_contains, Dactyl_Miryoku_R)
+    def_bool $(shields_list_contains,Dactyl_Miryoku_R)
