@@ -19,4 +19,8 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: Dactyl_Miryoku
+    shield: Dactyl_Miryoku_L
+  - board: nice_nano_v2
+    shield: Dactyl_Miryoku_R
+  - board: nice_nano_v2
+    shield: settings_reset
